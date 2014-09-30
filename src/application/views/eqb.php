@@ -11,6 +11,7 @@
  *
  */
 
+
 include_once (dirname(__FILE__) . '/common/common.php');
 $o_ci->template_->define('HEADER', '/tpl/_header.tpl');
 $o_ci->template_->define('MODULE', '/tpl/'.$page.'.tpl');
